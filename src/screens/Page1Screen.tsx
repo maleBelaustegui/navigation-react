@@ -12,7 +12,7 @@ export const Page1Screen = ({navigation}: Props) => {
       <Text> Home</Text>
       <Button
         title="Go to Page 2"
-        onPress={() => navigation.navigate('Page2')}
+        onPress={() => navigation.navigate('Page2Screen')}
       />
 
       <Text> Navegar con argumentos </Text>
